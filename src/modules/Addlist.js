@@ -30,4 +30,6 @@ const addItems = () => {
   showList();
 };
 
-export default addItems;
+// export default addItems;
+
+module.exports = addItems;
