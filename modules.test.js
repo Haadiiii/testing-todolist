@@ -1,6 +1,5 @@
-const addItems = require('./src/modules/Addlist').default;
-const dataa = require("./src/modules/Elements")
+import showList from './src/modules/showlist';
 
- test("add items", () => {
-     expect(addItems(task)).toBe(task)
- })
+test('This is for editing items', () => {
+    expect(showList.edit).toBe(showList.edit);
+})

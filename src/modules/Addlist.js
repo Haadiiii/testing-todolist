@@ -32,4 +32,4 @@ const addItems = () => {
 
 // export default addItems;
 
-module.exports = addItems;
+export default addItems;
