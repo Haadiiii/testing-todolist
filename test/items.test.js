@@ -20,7 +20,7 @@ describe("Testing the add toDo function", () => {
         description: "value",
         completed: false,
         index: 1,
-      }
+      },
     ]);
   });
 
@@ -28,28 +28,27 @@ describe("Testing the add toDo function", () => {
     addToDo();
     const data = storage.getLocalStorage();
     expect(data).toEqual([
-        {
-          description: "value",
-          completed: false,
-          index: 0,
-        },
-        {
-          description: "value",
-          completed: false,
-          index: 1,
-        }
-      ])
-    
+      {
+        description: "value",
+        completed: false,
+        index: 0,
+      },
+      {
+        description: "value",
+        completed: false,
+        index: 1,
+      },
+    ]);
   });
 });
 
-describe("testing remove function", () =>  {
+describe("testing remove function", () => {
   test("removing items", () => {
     localStorage.removeItem("to-do-item");
     addToDo("1");
     const beforeDelete = storage.getLocalStorage();
     removeList("1");
-    const afterDelete =  storage.getLocalStorage();
+    const afterDelete = storage.getLocalStorage();
     expect(afterDelete.length).toBe(beforeDelete.length - 1);
   });
 });

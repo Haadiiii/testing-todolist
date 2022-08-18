@@ -19,6 +19,7 @@
     "eol-last": "off",
     "Dependency": "off",
     "prefer-destructuring": "off",
+    "no-plusplus": "off",
     "import/extensions": [
       1,
       {

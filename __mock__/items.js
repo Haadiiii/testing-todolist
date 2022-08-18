@@ -1,7 +1,7 @@
-import Storage from "./storage";
+import Storage from "./storage.js";
 
 export const addToDo = () => {
-  let task = [];
+  const task = [];
   const storage = new Storage();
 
   task.push({
@@ -25,5 +25,4 @@ export const removeList = (id) => {
   task.splice(id, 1);
   storage.SetLocalStorage(task);
   return task;
-
 };
