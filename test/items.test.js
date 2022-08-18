@@ -1,4 +1,10 @@
-import { addToDo, removeList } from "../__mock__/items.js";
+import {
+  addToDo,
+  removeList,
+  inputField,
+  checkbox,
+  removeSelected,
+} from "../__mock__/items.js";
 import Storage from "../__mock__/storage.js";
 
 let storage;
@@ -52,3 +58,4 @@ describe("testing remove function", () => {
     expect(afterDelete.length).toBe(beforeDelete.length - 1);
   });
 });
+

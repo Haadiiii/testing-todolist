@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --mode development --open",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "jest": {
     "testEnvironment": "jsdom"
