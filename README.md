@@ -21,6 +21,14 @@ click [here](https://haadiiii.github.io/todo-list/dist/)
 - Twitter: [@HaaDiii_99](https://twitter.com/HaaDiii_99)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hamid-ali-01a872213/)
 
+👤 **Newton**
+
+- GitHub: [Newton](https://github.com/altontonn)
+- Twitter: [Newton](https://www.linkedin.com/in/NewtonAlumasa)
+- LinkedIn: [Newton](https://www.linkedin.com/in/newton-alumasa-7a05a21a2//)
+
+
+
 
 ## 🤝 Contributing
 
