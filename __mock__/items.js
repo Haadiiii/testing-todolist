@@ -1,26 +1,4 @@
 import Storage from "./storage";
-// import menu from '../src/assets/images/3-dots.png'
-
-// const toDoList = document.querySelector('.todo-list-items-li');
-
-// export const addItem = (value) => {
-//   let arr;
-//   if (Storage.getLocalStorage() == null) {
-//     arr = [];
-//   } else {
-//     arr = Storage.getLocalStorage();
-//   }
-
-//   const length = arr.length + 1
-//   const toDo = {
-//     description: value,
-//     completed: false,
-//     index: length,
-//   };
-//   arr.push(toDo);
-//   Storage.SetLocalStorage(arr);
-//   return arr;
-// };
 
 export const addToDo = () => {
   let task = [];

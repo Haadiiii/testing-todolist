@@ -1,4 +1,3 @@
-// import { title } from '../src/modules/Elements.js';
 import { addToDo, removeList } from "../__mock__/items.js";
 import Storage from "../__mock__/storage.js";
 
