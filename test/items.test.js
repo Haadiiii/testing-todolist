@@ -58,4 +58,3 @@ describe("testing remove function", () => {
     expect(afterDelete.length).toBe(beforeDelete.length - 1);
   });
 });
-

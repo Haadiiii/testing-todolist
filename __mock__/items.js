@@ -14,7 +14,7 @@ export const addToDo = () => {
       description: "value",
       completed: false,
       index: 1,
-    }
+    },
   );
   storage.SetLocalStorage(task);
   return task;
@@ -48,7 +48,7 @@ export const checkbox = () => {
   const storage = new Storage();
   task = storage.getLocalStorage();
   task.completed = true;
-  if(task.completed === true){
+  if (task.completed === true) {
     task = {
       description: "value",
       completed: true,
@@ -63,12 +63,10 @@ export const removeSelected = () => {
   let task = [];
   const storage = new Storage();
   task = storage.getLocalStorage();
-  task.completed = true
-  if(task.completed === true){
+  task.completed = true;
+  if (task.completed === true) {
     task = [];
   }
   storage.SetLocalStorage(task);
   return task;
 };
-
-
