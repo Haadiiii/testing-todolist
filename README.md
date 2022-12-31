@@ -2,14 +2,35 @@
 
 # todo list
 
-> In this website you will add books and also watch the lists of books.
+> In this website you will add books and also watch the lists of books, you can also remove the books from the list and also you can change the status of the book from read to unread and vice versa.
+
 
 ## Built With
 
-- HTML
-- CSS
+- [Webpack](https://webpack.js.org/)
+- HTML5
+- CSS3
 - JavaScript
+- APIs
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Setup
+- Clone the repository ` git clone`
+
+### Install
+- `npm install`
+- `npm run build`
+- `npm start`
+
+### Test
+- `npm run test`
 ## See Live
 click [here](https://haadiiii.github.io/todo-list/dist/)
 
